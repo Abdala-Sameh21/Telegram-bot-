@@ -64,7 +64,7 @@ def button(update, context):
         play(update, context)
 
 def main():
-    updater = Updater("YOUR_BOT_TOKEN", use_context=True)
+    updater = Updater("7742479143:AAHb0SfmbjmCW7slNh7o1-mShJXesTNguEE", use_context=True)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("start", start))
